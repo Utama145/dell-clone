@@ -4,252 +4,390 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Unilever website</title> 
-  <link rel="stylesheet" href="uni.css">
-  <link rel="icon" type="image/x-icon" href="main_foto/favicon.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Computer,Monitors & Technology Solutions | Dell Indonesia (COPY)</title>
+  <!-- This is hoe to use Bootstrap using CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Latest compiled JavaScript -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <!-- This is How to use Bootstrap using downloaded file -->
+
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="dell.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-<div class="main">
-  <img src="logo-animated.svg" alt="unilever">
-  <nav>
-     <div class="header">
-       <div class="globe">
-         <p class="pr1"> <i class="fa fa-globe" aria-hidden="true" style="color: white; font-size:15px"></i> Unilever Indonesia</p>
-         <a class="link" href="#">Ubah Lokasi</a>
-         <div class="search">
-          <i class="fa fa-search" style="margin-right: 10px; font-size: 15px;"></i>
-           <p>
-           Situs Pencarian
-           </p>
-         </div>
-        </div>
-        <div class="clear"></div>
-          <div class="border">
-            <ul class="ul_1">
-              <li><a href="index.html" target="_blank">Home</a></li>
-              <li><a href="https://fti.unai.edu" class="li_spc">Fti UNAI</a></li>
-              <li><a href="contact_us.html">Contact Us</a></li>
-              <li><a href="biodata.html">About Us</a></li>
-              <li><a href="https://10fastfingers.com/typing-test/indonesian" target="_blank">10 FAST FINGER</a></li>
-              <li><a href="https://unai.edu/">UNAI</a></li>
-              <li><a href="#Perusahaan">Unilever Indonesia (English)</a></li>
-          </ul>
+  <div class="row nav">
+      <div class="d-flex">
+        <span id="menuBut" class="open-btn">
+          <button onclick="openBut()"><i class="bx bx-menu"></i></button>
+        </span>
+        <a class="fs-4 nav-link" style="color: #0075CE;" href="#"><img src="dell_logo_icon_168288.png" alt="dell" width="80">
+          Technologies
+        </a>
+        <div class="mx-auto"></div>
+        <div class="rnav d-flex">
+          <a href="Contact_Us.html" class="nav-link mt-2"><i class='bx bx-headphone' ></i> Contact Us</a>
+          <a href="#" class="nav-link mt-2"><i class='bx bx-globe' ></i> ID/EN <i class='bx bxs-chevron-down'></i></a>
         </div>
       </div>
-  </nav>
-
-</div>
-<div class="one">
-  <div class="row">
-    <div class="column col_1">
-      <a href="#" class="link_box">Jadilah bagian dari #GenerasiPilahPlastik</a>
-      <p>Yuk, jadi bagian dari #GenerasiPilahPlastik karena setiap kita punya peran untuk bisa bantu jaga bumi kita, jaga Indonesia agar lebih lestari #MariberbagiPeran.</p>
-    </div>
-    <div class="column col_2">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/OiSrSXCbwa4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      
-     <!-- <img src="uni.jpg" class="uni_yt"></iframe> -->
-     
-    </div>
+      <div id="navig" class="d-flex navi mt-3">
+        <a href="index_2.html" class="nav-link mx-2">Home<i class='bx bxs-chevron-down'></i></a>
+        <a href="biodata.html" class="nav-link mx-2">Biodata<i class='bx bxs-chevron-down'></i></a>
+        <a href="Contact_Us.html" class="nav-link mx-2">Contact Us<i class='bx bxs-chevron-down'></i></a>
+        <a href="snake.html" class="nav-link mx-2">Snake Game<i class='bx bxs-chevron-down'></i></a>
+        <a href="https://fti.unai.edu/" target="_blank" class="nav-link mx-2">FTI Unai<i class='bx bxs-chevron-down'></i></a>
+        <a href="https://unai.edu/" target="_blank" class="nav-link mx-2">Unai<i class='bx bxs-chevron-down'></i></a>
+        <hr>
+        
+      </div> 
   </div>
   
-</div>
 
-<div class=" mid">
-  <h1 class="mid_text"><b> Cari Unilever Indonesia</b> </h1>
-  <input class="text_bar" type="search" placeholder="Pencarian kata kunci" >
-  <input type="submit" value="Mencari" class="submit_button">
-
-</div>
-
-<div class="mid_2">
-  <div class="under_mid_2">
-  <div class="column">
-      <div class="column_1">
-         <h2 class="hyper_2">Berita Terbaru</h2>
-         
-         <div class="card">
-          
-          <img class="bolaa" src="main_foto/eskrim.jpeg" alt="bola" style="width:100%">
-          <P class="small_box">Siaran Pers</P>
-          <div class="container">
-            <time datetime="2022-09-24T00:00:00.000Z">11/10/2022</time>
-            <br>
-            <a href="#rexona">Feast Pop, Es Krim Feast Tanpa Stik dari Wall’s</a> 
+  <nav class="sticky-md-top shadow-sm bg-light p-3 ">
+    <div class="navbar navbar-expand d-flex justify-content-center">
+        <div class="d-flex">
+          <div class="row">
+            <div class="col-md-6 px-5 text-center nav-hover">
+              <a href="#" class="nav-link"><img  width="35" src="display_utama/laptop.png"> </a>
+              <a href="#" class="nav-link">Laptop</a> 
           </div>
-         </div>
-      </div>
+          <div class="col-md-6 px-5 text-center nav-hover">
+              <a href="#" class="nav-link"><img  width="35" src="display_utama/pc.png"> </a>
+              <a href="#" class="nav-link">Desktops </a>
+          </div>
+          </div>
+          <div class="row">
+            
+            <div class="col-md-6 px-5 text-center nav-hover">
+              <a href="#" class="nav-link"><img  width="35" src="display_utama/computer-tower.png"> </a>
+              <a href="#" class="nav-link">Workstations </a>
+            </div>
+          <div class="col-md-6 text-center nav-hover">
+              <a href="#" class="nav-link"><img  width="35" src="display_utama/server.png"></a>
+              <a href="#" class="nav-link">Servers & Storage</a>
+          </div>
+          </div>
+        </div>
+   
+    </div>
+  </nav>
+<div class="">
+  <div class="container-fluid warna nav">
+    
+   
+    <div class="col-md-6 align-middle pt-sm-5 ps-4">
+      <b class=" fs-5 pt-md-5 ">LATITUDE</b>
+      <div class="fs-1 pb-3 text-muted">Work Anywhere</div>
+      <div class="fs-5 pb-4">Dell's new Latitude laptops and 2-in-1s make the world your workplace</div>
+      <a href="#" class="p-3 text-link fs-6  text-white">Learn More</a>
+    </div>
+    <div class="col-md-6">
+      <a href="#"><img src="display_utama/Picture6-removebg.png" alt="dellemc" width="100%" class=""></a> 
+   </div>
+  
   </div>
   
-  <div class="column">
-    <div class="column_2">
-      <div class="card">
-          
-        <img class="bolaa" src="main_foto/bola.jpeg" alt="bola" style="width:100%">
-        <P class="small_box">Siaran Pers</P>
-        <div class="container">
-          <time datetime="2022-09-24T00:00:00.000Z">24/9/2022</time>
-          <br>
-          <a href="#rexona">Rexona Dukung Garuda INAF Menuju Piala Dunia Sepakbola Amputasi 2022</a> 
+
+  <div class="container-fluid back-ground-2 pb-4">
+    <div class="text-center fs-2 py-4 ">Explore Dell Technologies</div>
+    <div class="row ">
+        <div class="col-md-4 kontener">
+          <img src="display_utama/703x423-desktop-category-edgesolutions.avif" alt="night" width="100%" class="overlay">
+          <p class="text-white bg-black fs-5 p-2">Edge Solutions</p>
         </div>
-       </div>
+        <div class="col-md-4 kontener">
+          <img src="display_utama/703x423-desktop-category-apexsolutions.avif" alt="night" width="100%" class="overlay" >
+          <p class="text-white bg-black fs-5 p-2">APEX Cloud Services</p>
+        </div> 
+        <div class="col-md-4 kontener">
+          <img src="display_utama/703x423-desktop-category-telecomsolutions.avif" alt="night" width="100%" class="overlay">
+          <p class="text-white bg-black fs-5 p-2">Telecom Solutions</p>
+        </div>
+    </div>
     
   </div>
-  </div>
+
+  <div class="container nav">
+    
+    <div class="col-lg-6">
+      <a href="#"><img src="display_utama/prod-1879-notebook-xps-13-9315-1023x842.avif" alt="dellemc" width="85%"></a>
   
-  <div class="column">
-    <div class="column_3">
-      <div class="card">
-          
-        <img class="bolaa" src="main_foto/gigi.jpeg" alt="bola" style="width:100%">
-        <P class="small_box">Siaran Pers</P>
-        <div class="container">
-          <time datetime="2022-09-24T00:00:00.000Z">12/9/2022</time>
-          <br>
-          <a href="#rexona">BKGN Ajak Masyarakat Pulihkan Kebiasaan Merawat Kesehatan Gigi dan Mulut</a> <br>
-          <p>Berupaya meningkatkan kebiasaaan menyikat gigi pagi dan malam hari, BKGN 2022 diresmikan dengan pemecahan rekor MURI melibatkan 701.009 masyarakat Indonesia</p>
-        </div>
-       </div>
+    </div>
+    <div class="col-lg-6 text-center ps-md-5 align-middle pt-sm-5">
+      <div class="pb-3 pt-md-5">XPS 13</div>
+      <div class="fs-2 pb-3">Nothing Can Weigh You Down</div>
+      <div class="fs-5 px-5 pb-4">Meet our thinnest and lightest 13-inch XPS. Now you can do what you love anywhere.</div>
+      <a href="#" class="nav-link text-primary fs-5 pt-1">Learn More</a>
+    </div>
+  
+  </div>
+
+  <div class="container-fluid nav pb-3">
+    
    
-     </div>
+    <div class="col-lg-6 text-center pe-lg-5 align-middle pt-sm-5">
+      <div class="pb-3 pt-md-5">PRECISION</div>
+      <div class="fs-1 px-5 pb-3">Power Your Purpose</div>
+      <div class="fs-5 px-5 pb-4">The new 7000 Series are our most scalable and powerful mobile workstations.</div>
+      <a href="#" class="nav-link text-primary fs-5 pt-1">Learn More</a>
+    </div>
+    <div class="col-lg-6">
+     <a href="#"><img src="display_utama/show-workstation-sb-dell-precision-7770nt-uhp-2303-09-in-homepage-module-lf-1023x842.avif" alt="dellemc" width="85%"></a> 
+  
+    </div>
+  
   </div>
-  </div>
-
-
-
-<div class="mid_3">
-  <div class="under_column">
-  <div class="column_4">
-    <div class="card">
-          
-      <img class="bolaa" src="main_foto/sehat.jpeg" alt="bola" style="width:100%">
-      <P class="small_box">Siaran Pers</P>
-      <div class="container">
-        <time datetime="2022-09-24T00:00:00.000Z">24/9/2022</time>
-        <br>
-        <a href="#rexona">Lifebuoy dan Halodoc Kolaborasi, Berikan Layanan Konsultasi Dokter Gratis</a> 
-        <ul>
-          <li>Lewat kolaborasi, Lifebuoy dan Halodoc mengedukasi orang tua agar semakin peduli jaga kesehatan anak dan keluarga, dan tidak ragu berkonsultasi dengan dokter</li>
-          <li>Kemudahan layanan telehealth dipercaya mampu jawab kecemasan orang tua yang tinggi terkait kesehatan anak, yang akhirnya mendorong perilaku swamedikasi</li>
-          <li>Di Halodoc, topik terkait kesehatan anak dan keluarga terus menunjukkan tren positif, dengan lebih dari 2 juta user per bulan mengakses artikel kesehatan terkait anak dan keluarga</li>
-        </ul>
+  <div class="container-fluid row">
+    <div class="text-center col-md-6 d-flex justify-content-center align-items-center ">
+        <div>
+          <div class="fs-1 ">DELL SUPPORT</div>
+          <div>Get your questions answered</div>
+        </div>
+    </div>
+  
+    <div class="col-md-6 container ps-5 ps-md-0 pt-0 pt-md-4">
+      <a href="#"><img src="display_utama/Picture1.png" alt="home" height="30" class="float-start" ></a>
+      <div class="mx-5">
+      <a href="#" class="link_a fs-4" >Suport Home</a>
+      <div class="fs-5">Browse all support-related information</div>
       </div>
-     </div>
+      <hr>
+      <a href="#"><img src="display_utama/Picture2.png" alt="home" height="30" class="float-start" ></a>
+      <div class="mx-5">
+      <a href="#" class="link_a fs-4" >Drivers and Downloads</a>
+      <div class="fs-5">Browse all support-related information</div>
+      </div>
+      <hr>
+      <a href="#"><img src="display_utama/Picture3.png" alt="home" height="30" class="float-start" ></a>
+      <div class="mx-5">
+      <a href="#" class="link_a fs-4" >Warranty and Contracts</a>
+      <div class="fs-5">Browse all support-related information</div>
+      </div>
+      <hr>
+      <a href="#"><img src="display_utama/Picture4.png" alt="home" height="30" class="float-start" ></a>
+      <div class="mx-5">
+      <a href="#" class="link_a fs-4" >Chat with a Business Advisor</a>
+      <div class="fs-5">Browse all support-related information</div>
+      </div>
+      
+      
+    </div>
+  </div>
 
+
+  <div class="container nav">
+    
+    <div class="col-lg-6">
+      <a href="#"><img src="display_utama/fy23q1w2a-gaming-warm-module-mb-aw-r13-mob-1023x842.avif" alt="dellemc" width="85%"></a>
+  
+    </div>
+    <div class="col-lg-6 text-center ps-md-5 align-middle pt-sm-5">
+      <div class="pb-3 pt-md-5">ALIENWARE AURORA R13</div>
+      <div class="fs-2 pb-3">Bigger. Better. Cooler.</div>
+      <div class="fs-5 px-5 pb-4">Introducing the first Alienware Cryo-techTM enabled desktop.</div>
+      <a href="#" class="nav-link text-primary fs-5 pt-1">Learn More</a>
+    </div>
+  
+  </div>
+
+
+  <div class="container-fluid nav pb-3">
+    
+   
+    <div class="col-lg-6 text-center pe-lg-5 align-middle pt-sm-5">
+      <div class="pb-3 pt-md-5">SERVERS, STORAGE, NETWORKING</div>
+      <div class="fs-1 px-5 pb-3">Flexible, Scalable IT Solutions</div>
+      <div class="fs-5 px-5 pb-4">Power transformation with server, storage and network solutions that adapt and scale to your business needs.</div>
+      <a href="#" class="nav-link text-primary fs-5 pt-1">Learn More</a>
+    </div>
+    <div class="col-lg-6">
+     <a href="#"><img src="display_utama/dbcs-0096-t550-lf-1023x842.avif" alt="dellemc" width="85%"></a> 
+  
+    </div>
+  
+  </div>
+
+ <div class="text-center">
+  <div class="fs-1">Their latest. Our greatest.</div>
+  <p class="pt-2">Together, Windows 11 and Dell PCs create a best-in-class experience.</p>
+  <a href="#" class="nav-link text-primary fs-5 pt-1">Learn More</a>
+ </div>
+
+
+  <div class="container nav">
+    
+    <div class="col-lg-6">
+      <a href="#"><img src="display_utama/pilot-powerstore-rf-1023x842.avif" alt="dellemc" width="85%"></a>
+  
+    </div>
+    <div class="col-lg-6 text-center ps-md-5 align-middle pt-sm-5">
+      <div class="pb-3 pt-md-5">POWERSTORE</div>
+      <div class="fs-2 pb-3">The Future of Storage is Now</div>
+      <div class="fs-5 px-5 pb-4">Future-proof intelligent storage that redefines performance.</div>
+      <a href="#" class="nav-link text-primary fs-5 pt-1">Learn More</a>
+    </div>
+  
+  </div>
+
+<div class="back-ground pb-4 pt-3">
+  <div class="container-md">
+    <p class="fw-lighter fs-2">We Are Dell Technologies</p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="px-4 shadow pb-4 bg-white">
+          <p class="fs-4 pt-4">What We Do</p>
+          <hr>
+          <div class="row">
+            <div class="col-lg-5">
+          <img src="display_utama/international-space-station-and-astronaut-703x423-1.avif" alt="space" class="img-fluid " width="100%">
+        </div>
+          <div class="col-md-7 fs-5">Our end-to-end solutions help and support you build a better tomorrow.
+            <br>
+          <a href="#" class="nav-link text-primary pt-1">Learn More</a>
+        </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 pt-md-0 pt-4">
+        <div class="px-4 shadow pb-4 bg-white">
+          <p class="fs-4 pt-4">McLaren Customer Story</p>
+          <hr>
+          <div class="row">
+            <div class="col-lg-5">
+          <img src="display_utama/703x423-desktop-category-mclarencustomerstory-1.avif" alt="space" class="img-fluid " width="100%">
+        </div>
+          <div class="col-md-7 fs-5">Powering racing and innovation with high-performance technology.
+            <br>
+          <a href="#" class="nav-link text-primary pt-1">Learn More</a>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-md">
+    <div class=" row pt-4">
+      <div class="col-md-6">
+        <div class="px-4 shadow pb-4 bg-white">
+          <p class="fs-4 pt-4">New Trailblazers Podcast</p>
+          <hr>
+          <div class="row">
+            <div class="col-lg-5">
+          <img src="display_utama/trailblazers-703x423-1.avif" alt="space" class="img-fluid " width="100%">
+        </div>
+          <div class="col-md-7 fs-5">We love our pets and the technology we've developed to adopt is proof of their value.
+            <br>
+          <a href="#" class="nav-link text-primary pt-1">Learn More</a>
+        </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 pt-md-0 pt-4">
+        <div class="px-4 shadow pb-4 bg-white">
+          <p class="fs-4 pt-4">Advancing Sustainability</p>
+          <hr>
+          <div class="row">
+            <div class="col-lg-5">
+          <img src="display_utama/advancing-sustainability-703x423-copy.avif" alt="space" class="img-fluid " width="100%">
+        </div>
+          <div class="col-md-7 fs-5">We are committed to driving sustainable innovation for the planet.
+            <br>
+          <a href="#" class="nav-link text-primary pt-1">Learn More</a>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+</div>
 
-<div class="under_column">
-  <div class="column_5">
-   
-    <div class="card">
-          
-      <img class="bolaa" src="main_foto/quen.jpeg" alt="bola" style="width:100%">
-      <P class="small_box">Siaran Pers</P>
-      <div class="container">
-        <time datetime="2022-09-24T00:00:00.000Z">24/9/2022</time>
-        <br>
-        <a href="#rexona">The death of Her Majesty Queen Elizabeth II</a>
+
+
+  <footer class="container-fluid bg-light pt-4">
+    <div class="container row mb-4 ms-md-2">
+      <div class="col-md-3">
+          <img src="globe.png" alt="globe" width="14"><t class="ms-md-2 text-size text-muted">ID/EN</t>
+          <a href="#" class="nav-link text_2 text-muted">Site Map</a>
+      </div>
+      
+      <div class="col-md-3">
+          <b class="text-size text-muted">Support</b>
+          <a href="#" class="nav-link py-md-2 text_2 text-muted">Support Home</a>
+          <a href="#" class="nav-link py-md-2 text_2 text-muted">Contact Support</a>
+      </div>
+      
+      <div class="col-md-3">
+          <b class="text-size text-muted">Connect with Us</b>
+          <a href="#" class="nav-link py-md-2 text_2 text-muted">Community</a>
+          <a href="#" class="nav-link py-md-2 text_2 text-muted">Contact Us</a>
+      </div>
+
+      <div class="col-md-3 ">
         
       </div>
-     </div>
-
   </div>
 
-</div>
-</div>
-<div class="div_mid">
-  <input type="submit" value="Lihat Semua Berita" class="submit_button_2">
-  </div>
+    <div class="container row text-muted mb-4 ms-md-2">
+        <div class="col-md-3">
+            <b class="text-size">Our Offerings</b>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">APEX</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Products</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Solutions</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Services</a>
+        </div>
+        
+        <div class="col-md-3">
+            <b class="text-size">Our Company</b>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Who We Are</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Careers</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Dell Technologies Capital</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Investors</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Newsroom</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Perspectives</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Recycling</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">ESG & Impact</a>
+        </div>
+        
+        <div class="col-md-3">
+            <b class="text-size">Our Partners</b>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Find a Partner</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">OEM Solutions</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Partner Program</a>
+        </div>
 
-</div>
-<div class="karyawan">
-  <img src="ffb5dcf2d6f4669c8460c1344a9d055582d85a45-183x183.svg" alt="daun" class="daun">
-  <h2 class="karyawan_1">Kami Unilever Indonesia</h2>
-  
-  <div class="kolom">
-    <h1>No 1</h1>
-    <h2>perusahaan terbaik pencari kerja</h2>
-    <p>berdasarkan survei Universum 7 tahun berturut-turut</p>
-
-  </div>
-  <div class="kolom" style="background-color:rgba(7, 7, 203, 0.838);">
-    <h1>100%</h1>
-    <h2>Pabrik kami</h2>
-    <p>Menerapkan Sistem Jaminan Halal</p>
-
-  </div>
-  <div class="kolom">
-    <h1>5.000 +</h1>
-    <h2>Karyawan</h2>
-    <p>Di Indonesia</p>
-
-  </div>
-  <div class="kolom" style="background-color:rgba(7, 7, 203, 0.838) ;">
-    <h1>88</h1>
-    <h2>tahun</h2>
-    <p>Bersama masyarakat Indonesia</p>
-
-  </div>
-  <div class="div_div">
-    <input type="submit" value="Cari Tahu Lebih Lanjut Tentang Perusahaan Kami" class="submit_button_3">
-  </div>
-
-  <div class="every_u_does">
- 
-    <img src="main_foto/unilever.jpeg" alt="unilever" >
-    <a href="#none" class="none">Temukan Cerita Perjalanan Kami Bersama Masyarakat Indonesia</a>
-    <br><br>
-    <p class="perjalanan">Perjalanan kami di Indonesia dimulai pada 5 Desember 1933. Hingga sejak itu, sampai hari ini, komitmen kami semakin kuat, kami ingin terus bersama dan bertumbuh dengan masyarakat Indonesia untuk menciptakan Indonesia yang lebih sehat, lebih lestari dan lebih sejahtera.</p>
-  
-  </div>
-
- 
-</div>
-<footer> 
- <div class="the_last"> 
-<ul>
-  <li><i class="fa fa-share-alt"  ></i> </li>
-  <li>Bagikan halaman ini</li>
-  <li><i class="fa fa-facebook-f" ></i></li>
-  <li><i class="fa fa-twitter" ></i></li>
-  <li><i class="fa fa-linkedin-square" ></i></li>
-  <li><i class="fa fa-envelope" ></i></li>
-</ul>
-</div>
-<div class="baris">
-<div class="bawah_2">
-  <div class="bawah_2_1">
-  <h1>Berhubungan dengan kami</h1>
-</div>
-<p>Kami selalu senang terhubung dengan mereka yang memiliki minat yang sama terhadap masa depan yang berkelanjutan.</p>
-<ul>
-  <li><i class="fa fa-facebook-f" ></i></li>
-  <li><i class="fa fa-twitter" ></i></li>
-  <li><i class="fa fa-instagram"></i></li>
-  <li><i class="fa fa-linkedin-square" ></i></li>
-  <li><i class="fa fa-youtube-play"></i></li>
-</ul>
-
-</div>
-</div>
-
-<div class="blue_keren">
-  <div class="kanan">
-  <div class="malam">
-  <p>Unilever Indonesia</p>
-  <p>&reg Unilever 2022</p>
-</div>
-<p class="istimewa"><a href="#" style="color: white;">Hubungi Unilever Indonesia</a>&nbsp&nbsp<a href="#" style="color: white;">Catatan Legal</a> &nbsp&nbsp<a href="#" style="color: white;">Aksesibilitas</a>&nbsp&nbsp<a href="#" style="color: white;">Pemberitahuan Privasi</a></p>
-<p class="isti"><a href="#" style="color: white;">Sitemap</a> &nbsp&nbsp <a href="#" style="color:white ;">Pemberitahuan Cookie</a> </p>
-</div>
-<div class="terakhir">
-  <img src="main_foto/clap.jpeg">
-
-</div>
-</div>
-
-</footer>
+        <div class="col-md-3 ">
+            <b class="text-size">Resources</b>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Blog</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Events</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Glossary</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Privacy Centre</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Resource Library</a>
+            <a href="#" class="nav-link py-md-2 text_2 text-muted">Trial Software Downloads</a>
+        </div>
+    </div>
+    
+    <div class="nav navbar-collapse-md mb-md-2 ms-md-2">
+      <a href="#" class="nav-link text-muted text fw-bold me-3">Dell.com</a>
+      <a href="#" class="nav-link text-muted text fw-bold me-3">Dell Technologies</a>
+      <a href="#" class="nav-link text-muted text fw-bold me-3">Premier</a>
+    </div>
+    
+    <div class="nav ms-md-2">
+      <a href="#" class="nav-link text-muted text me-3">Copyright © 2022 Dell Inc.</a>
+      <a href="#" class="nav-link text-muted text me-3">Terms of Sale</a>
+      <a href="#" class="nav-link text-muted text me-3">Privacu Statement</a>
+      <a href="#" class="nav-link text-muted text me-3">Legal & Regulator</a>
+    </div>
+    </footer>
 </body>
 </html>
