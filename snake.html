@@ -42,7 +42,7 @@
         <a href="index.html" class="nav-link mx-2">Home<i class='bx bxs-chevron-down'></i></a>
         <a href="biodata.html" class="nav-link mx-2">Biodata<i class='bx bxs-chevron-down'></i></a>
         <a href="Contact_Us.html" class="nav-link mx-2">Contact Us<i class='bx bxs-chevron-down'></i></a>
-        <a href="snake.html" class="nav-link mx-2">Snake Game<i class='bx bxs-chevron-down'></i></a>
+        <a href="snake.html" class="nav-link mx-2">Tic Tac Toe<i class='bx bxs-chevron-down'></i></a>
         <a href="https://fti.unai.edu/" target="_blank" class="nav-link mx-2">FTI Unai<i class='bx bxs-chevron-down'></i></a>
         <a href="https://unai.edu/" target="_blank" class="nav-link mx-2">Unai<i class='bx bxs-chevron-down'></i></a>
         <hr>
@@ -79,9 +79,31 @@
    
     </div>
   </nav>
-  <div class="badan">
-  <h1>Snake</h1>
-  <canvas id="board"></canvas>
+
+  <div class="">
+    <main class="py-5 bg-black">
+      <section class="title">
+          <h1>Tic Tac Toe</h1>
+      </section>
+      <section class="display">
+          Player <span class="display-player playerX">X</span>'s turn
+      </section>
+      <section class="contai">
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+          <div class="tile"></div>
+      </section>
+      <section class="display announcer hide"></section>
+      <section class="controls">
+          <button id="reset">Reset</button>
+      </section>
+  </main>
   </div>
 
   <footer class="bg-light pt-4">
